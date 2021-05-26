@@ -7,7 +7,7 @@ from prsaw import RandomStuff
 
 client= commands.Bot(command_prefix="c!", case_insensitive=True)
 client.remove_command("help")
-key = "7A8Dn3qoGL"
+key = "get da ke"
 rs = RandomStuff(async_mode=True , api_key = key)
 conn= sqlite3.connect("dbs/main.db")
 
